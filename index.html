@@ -1,13 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&family=Inter:wght@500&family=Montserrat:wght@100&family=Poppins:ital,wght@0,300;0,400;0,500;1,300&family=Press+Start+2P&family=Roboto:wght@100;400;500&display=swap"
+        rel="stylesheet">
     <title>Admin Dashboard</title>
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="header">
+
+        </div>
+        <div class="sidebar">
+            <div class="title">
+                <!-- <img class="icon" src="images/dashboard.png" alt="icon" id="dashboardIcon"> -->
+                <svg id="dashboardIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23">
+                    <title>view-dashboard</title>
+                    <path d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z" />
+                </svg>
+                <p id="pDashboard">Dashboard</p>
+            </div>
+            <div class="menu1">
+                <ul>
+                    <li>
+                        <a href="#"><img src="images/home.png" alt="home"> Home</a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/user.png" alt="profile"> Profile</a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/message.png" alt="message"> Messages</a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/history.png" alt="history"> History</a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/tasks.png" alt="tasks"> Tasks</a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/group.png" alt="communities"> Communities</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu2">
+                <ul>
+                    <li>
+                        <a href="#"><img src="images/settings.png" alt=""> Settings</a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/support.png" alt="support"> Support</a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/privacy.png" alt="privacy"> Privacy</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main"></div>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
