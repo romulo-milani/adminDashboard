@@ -215,4 +215,88 @@ li {
 
 .main {
     background-color: var(--background-color);
+    display: flex;
+    padding: 10px;
 }
+
+/*main left*/
+.mainLeft {
+    flex: 3 2 auto;
+}
+
+#pTitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.mainLeft p {
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.mainLeft h3 {
+    margin-top: 2px;
+}
+
+.container1 {
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 30px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 400px);
+    gap: 15px;
+    justify-items: center;
+}
+
+.card {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardIcons {
+    display: flex;
+    margin-top: 10px;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 10px;
+}
+
+.cardIcon {
+    width: 30px;
+}
+
+/*main right*/
+
+.mainRight {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.announcements {
+    width: 400px;
+
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+
+
